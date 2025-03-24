@@ -1,0 +1,22 @@
+POST http://localhost:3001/auth/sign-in
+Content-Type: application/json
+
+{
+    "email": "faladeysuuf54@gmail.com",
+    "password": "223232423"
+}
+
+POST http://localhost:3001/auth/forgot-password
+Content-Type: application/json
+
+{
+    "email": "your-email@gmail.com"
+}
+
+POST http://localhost:3001/auth/reset/password
+Content-Type: application/json
+
+{
+    "token": "4t72beb",
+    "newpassword": "new@1001"
+}
